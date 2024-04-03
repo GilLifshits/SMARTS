@@ -2,10 +2,10 @@
 
 ## Table of Contents: :clipboard:
   * [Authors](#authors-memo)
-  * [Introduction](#Introduction-bookmark-tabs)
+  * [Introduction](#Introduction-bookmark_tabs)
   * [Goals](#goals-dart)
-  * [Data Description](#data-description)
-  * [Tools and Methods](#tools-and-methods)
+  * [Data Description](#data-description-bar_chart)
+  * [Tools and Methods](#tools-and-methods-hammer_and_wrench)
 
 ## Authors :memo:
 [Tal Amar](https://github.com/Tal-Amar), [Itay Saig](https://github.com/Itay-Saig), [Ido Pascaro](https://github.com/idopasc)
