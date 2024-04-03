@@ -33,5 +33,6 @@ Our research methodology involves several stages:
 -	Evaluation of different RL algorithms for multi-agent interaction.
 -	Integration of selected algorithms into SMARTS.
 -	Development and validation of evaluation metrics.
-XXXXX
+
+
 Throughout these stages, we leverage SMARTS to simulate diverse driving scenarios, allowing us to train and assess the effectiveness of our DRL models in handling multi-agent interactions.
