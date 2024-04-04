@@ -10,7 +10,7 @@ import gymnasium as gym
 
 SMARTS_REPO_PATH = Path(__file__).parents[1].absolute()
 sys.path.insert(0, str(SMARTS_REPO_PATH))
-from examples.tools.argument_parser import minimal_argument_parser
+from SMARTS.examples.tools.argument_parser import minimal_argument_parser
 from smarts.core.agent import Agent
 from smarts.core.agent_interface import AgentInterface, AgentType
 from smarts.core.utils.episodes import episodes
