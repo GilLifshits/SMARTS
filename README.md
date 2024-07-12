@@ -113,7 +113,7 @@ Before diving into editing scenarios and running DRL algorithms, it's important 
 
 - #### Understand SMARTS Architecture:
 
-  - **Agents:** In SMARTS, agents represent the autonomous entities (i.e., [vehicles](https://smarts.readthedocs.io/en/latest/sim/vehicle.html) that interact with the environment. They can be controlled using different policies or machine learning models. To read in detail about agents, click [**here**](https://smarts.readthedocs.io/en/latest/sim/agent.html).
+  - **Agents:** In SMARTS, agents represent the autonomous entities (i.e., [vehicles](https://smarts.readthedocs.io/en/latest/sim/vehicle.html)) that interact with the environment. They can be controlled using different policies or machine learning models. To read in detail about agents, click [**here**](https://smarts.readthedocs.io/en/latest/sim/agent.html).
   - **Environments:** The simulation environment includes the road network, traffic participants and simulation dynamics. It is where the agents operate. To read in detail about environments, click [**here**](https://smarts.readthedocs.io/en/latest/sim/env.html).
   - **Scenarios:** Scenarios define the specific settings and configurations for a simulation, including road layouts, traffic routes and agent behaviors.
 
@@ -155,8 +155,21 @@ Planning and running a scenario involves three steps:
   ```
 
 - #### Create a DRL Script
-  Navigate to the examples directory in SMARTS and create a new Python script for your DRL experiment. It is recommended to first experiment with the PPO algorithm example provided by SMARTS. To read in detail about the PPO example, click here.
+  Navigate to the [**`examples`**](https://github.com/huawei-noah/SMARTS/tree/master/examples) directory in SMARTS and create a new Python script for your DRL experiment. It is recommended to first experiment with the [PPO algorithm example](https://github.com/huawei-noah/SMARTS/blob/master/examples/e12_rllib/ppo_example.py) provided by SMARTS.
 
+---
+
+### Stage 6: Analyze and Compare Results
+
+- #### Use SUMO-GUI for Visualization:
+  After running simulations, use SUMO-GUI to visualize the traffic.
+    
+  ```bash
+  sumo-gui -c your_sumo_config_file.sumocfg
+  ```
+
+- #### Analyze Performance:
+  Use Python libraries to analyze, compare and visualize the performance of the different DRL algorithms.
 
 ## :speech_balloon: Acknowledgements
 
